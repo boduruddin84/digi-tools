@@ -8,7 +8,8 @@
     "tag": "best seller",
     "tagType": "best-seller",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "file-text"
+    "icon": "file-text",
+    "image": "https://i.ibb.co.com/qtFQqCK/unnamed.webp"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Responsive design", "Dark mode", "Custom sections"],
-    "icon": "layout"
+    "icon": "layout",
+    "image": "https://i.ibb.co.com/sd6W1s6R/portfolio.png"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Application tracking", "Status filters", "Email alerts"],
-    "icon": "briefcase"
+    "icon": "briefcase",
+    "image": "https://i.ibb.co.com/pjk4fbGv/unnamed-1.webp"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["AI writing", "Custom templates", "Download as PDF"],
-    "icon": "edit"
+    "icon": "edit",
+    "image": "https://i.ibb.co.com/CKJhXvvm/writing-2327400-1.png"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "tag": "best seller",
     "tagType": "best-seller",
     "features": ["Mock interviews", "Feedback system", "Common Q&A"],
-    "icon": "mic"
+    "icon": "mic",
+    "image": "https://i.ibb.co.com/0jvJ4QW3/design-tool.png"
   },
   {
     "id": 6,
@@ -63,50 +68,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Video lessons", "Quizzes", "Certificates"],
-    "icon": "book"
-  },
-  {
-    "id": 7,
-    "name": "LinkedIn Optimizer",
-    "description": "Improve your LinkedIn profile to attract recruiters.",
-    "price": 14.99,
-    "period": "one-time",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": ["Profile review", "SEO tips", "Headline generator"],
-    "icon": "linkedin"
-  },
-  {
-    "id": 8,
-    "name": "Freelancer Starter Pack",
-    "description": "Everything you need to start freelancing successfully.",
-    "price": 24.99,
-    "period": "one-time",
-    "tag": "best seller",
-    "tagType": "best-seller",
-    "features": ["Proposal templates", "Client management", "Pricing guide"],
-    "icon": "user-check"
-  },
-  {
-    "id": 9,
-    "name": "Time Management Toolkit",
-    "description": "Boost productivity with smart planning tools.",
-    "price": 3.99,
-    "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": ["Task planner", "Reminders", "Analytics dashboard"],
-    "icon": "clock"
-  },
-  {
-    "id": 10,
-    "name": "AI Content Writer",
-    "description": "Generate blogs, posts, and content using AI.",
-    "price": 12.99,
-    "period": "monthly",
-    "tag": "new",
-    "tagType": "new",
-    "features": ["AI writing", "SEO optimization", "Multiple formats"],
-    "icon": "pen-tool"
+    "icon": "book",
+    "image": "https://i.ibb.co.com/8LcDFS6m/operation.png"
   }
 ]
