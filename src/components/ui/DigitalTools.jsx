@@ -9,11 +9,11 @@ const DigitalTools = () => {
 
       <div className="flex justify-center mb-10">
         <div role="tablist" className="tabs tabs-box">
-          <button role="tab" className="btn btn-primary tab tab-active">
-            Tab 1
+          <button role="tab" className="bg-blue-600 text-white tab tab-active">
+            Products
           </button>
           <button role="tab" className="tab">
-            Tab 2
+            Cart (2)
           </button>
         </div>
       </div>

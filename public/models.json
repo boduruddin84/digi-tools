@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS optimization.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "file-text"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build a stunning personal portfolio with ready-made components.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Responsive design", "Dark mode", "Custom sections"],
+    "icon": "layout"
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker Plus",
+    "description": "Track job applications, interviews, and statuses in one place.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Application tracking", "Status filters", "Email alerts"],
+    "icon": "briefcase"
+  },
+  {
+    "id": 4,
+    "name": "Cover Letter Generator",
+    "description": "Generate personalized cover letters instantly using AI.",
+    "price": 6.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI writing", "Custom templates", "Download as PDF"],
+    "icon": "edit"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep Master",
+    "description": "Practice interview questions with real-time feedback.",
+    "price": 29.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": ["Mock interviews", "Feedback system", "Common Q&A"],
+    "icon": "mic"
+  },
+  {
+    "id": 6,
+    "name": "Skill Booster Courses",
+    "description": "Upgrade your skills with curated professional courses.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Video lessons", "Quizzes", "Certificates"],
+    "icon": "book"
+  },
+  {
+    "id": 7,
+    "name": "LinkedIn Optimizer",
+    "description": "Improve your LinkedIn profile to attract recruiters.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Profile review", "SEO tips", "Headline generator"],
+    "icon": "linkedin"
+  },
+  {
+    "id": 8,
+    "name": "Freelancer Starter Pack",
+    "description": "Everything you need to start freelancing successfully.",
+    "price": 24.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": ["Proposal templates", "Client management", "Pricing guide"],
+    "icon": "user-check"
+  },
+  {
+    "id": 9,
+    "name": "Time Management Toolkit",
+    "description": "Boost productivity with smart planning tools.",
+    "price": 3.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Task planner", "Reminders", "Analytics dashboard"],
+    "icon": "clock"
+  },
+  {
+    "id": 10,
+    "name": "AI Content Writer",
+    "description": "Generate blogs, posts, and content using AI.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["AI writing", "SEO optimization", "Multiple formats"],
+    "icon": "pen-tool"
+  }
+]
