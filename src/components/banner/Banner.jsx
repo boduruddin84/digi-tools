@@ -2,9 +2,9 @@ import BannerImg from "../../assets/banner.png";
 
 const Banner = () => {
   return (
-    <div className="container mx-auto my-12 flex gap-10">
-      <div className="flex flex-col justify-center">
-        <p className="bg-[#E1E7FF] rounded-full w-1/3 px-4 py-1">New: AI-Powered Tools Available</p>
+    <div className="container mx-auto my-12 flex gap-50">
+      <div className="flex flex-col justify-center mr-25">
+        <p className="bg-[#E1E7FF] rounded-full w-1/2 px-4 py-1">New: AI-Powered Tools Available</p>
         <h2 className="font-extrabold text-7xl/[84px] mt-5 mb-2 text-[#101727]">
           Supercharge Your <br /> Digital Workflow
         </h2>

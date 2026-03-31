@@ -1,5 +1,6 @@
 import './App.css'
 import Banner from './components/banner/Banner'
+import Rating from './components/banner/Rating'
 import NavBar from './components/navBar/NavBar'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <NavBar />
       <Banner />
+      <Rating />
     </>
   )
 }
