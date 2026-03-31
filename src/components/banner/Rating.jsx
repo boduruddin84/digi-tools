@@ -1,7 +1,7 @@
 const Rating = () => {
   return (
     <div className="bg-[#4F39F6] py-10 mb-20">
-      <div className="flex justify-around container mx-auto">
+      <div className="text-center md:text-left md:flex justify-around container mx-auto">
         <div className="space-y-3">
           <h2 className="font-extrabold text-6xl text-[#FFFFFF]">50K+</h2>
           <p className="text-2xl text-[#ffffffbc] font-medium">Active Users</p>

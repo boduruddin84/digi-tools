@@ -1,21 +1,34 @@
-const DigitalTools = () => {
+const DigitalTools = ({ setActiveTab }) => {
   return (
     <div className="text-center">
-      <h2 className="text-5xl font-extrabold text-[#101727]">Premium Digital Tools</h2>
+      <h2 className="text-5xl font-extrabold text-[#101727]">
+        Premium Digital Tools
+      </h2>
       <p className="text-[#627382] my-5">
-        Choose from our curated collection of premium digital products designed <br />
+        Choose from our curated collection of premium digital products designed{" "}
+        <br />
         to boost your productivity and creativity.
       </p>
 
       <div className="flex justify-center mb-10">
-        <div role="tablist" className="tabs tabs-box">
-          <button role="tab" className="bg-blue-600 rounded-full text-white tab tab-active">
-            Products
-          </button>
-          <button role="tab" className="tab">
-            Cart (2)
-          </button>
+        <div className="tabs tabs-box">
+          <input
+            type="radio"
+            name="my_tabs_1"
+            className="tab rounded-full w-40"
+            aria-label="Products"
+            defaultChecked
+            onClick={() => setActiveTab("product")}
+          />
+          <input
+            type="radio"
+            name="my_tabs_1"
+            className="tab rounded-full w-40"
+            aria-label="Cart (2)"
+            onClick={() => setActiveTab("cart")}
+          />
         </div>
+        
       </div>
     </div>
   );

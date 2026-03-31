@@ -6,7 +6,7 @@ const NavBar = () => {
           <a className="text-xl font-extrabold text-[#4F39F6]">DigiTools</a>
         </div>
 
-        <div className="flex gap-5 mr-100">
+        <div className="hidden lg:flex gap-5 mr-100">
             <p>Products</p>
             <p>Features</p>
             <p>Pricing</p>
