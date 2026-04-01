@@ -9,15 +9,16 @@ import SelectedCart from './components/ui/SelectedCart';
 
 
 const getModels = async () => {
-  const res = await fetch("/products.json")
-  return res.json()
+  const res = await fetch("/products.json");
+  return res.json();
 }
 
-const productPromise = getModels()
+const productPromise = getModels();
 
 function App() {
-  const [activeTab, setActiveTab] = useState("product")
-  console.log(activeTab);
+  const [activeTab, setActiveTab] = useState("product");
+  const [carts, setCarts] = useState([]);
+  console.log(carts);
   
 
   return (
@@ -26,8 +27,8 @@ function App() {
       <Banner />
       <Rating />
       <DigitalTools setActiveTab={setActiveTab} />
-      {activeTab === "product" && <Products productPromise={productPromise} />}
-      {activeTab === "cart" && <SelectedCart />}
+      {activeTab === "product" && <Products productPromise={productPromise} carts={carts} setCarts={setCarts} />}
+      {activeTab === "cart" && <SelectedCart carts={carts} />}
     </>
   )
 }

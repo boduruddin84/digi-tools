@@ -1,4 +1,8 @@
-const Card = ({ product }) => {
+const Card = ({ product, carts, setCarts }) => {
+  const handelButton = () => {
+    setCarts([...carts, product])
+  }
+
   return (
     <div>
       <div className="card w-96 bg-base-100 shadow-sm">
@@ -23,8 +27,8 @@ const Card = ({ product }) => {
             </p>
           </div>
           <ul className="mt-6 flex flex-col gap-2 text-xs">
-            {product.features.map((feature) => (
-              <div>
+            {product.features.map((feature, index) => (
+              <div key={index}>
                 <li>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +50,7 @@ const Card = ({ product }) => {
             ))}
           </ul>
           <div className="mt-6">
-            <button className="btn btn-primary btn-block rounded-full">
+            <button onClick={handelButton} className="btn btn-primary btn-block rounded-full">
               Buy Now
             </button>
           </div>
