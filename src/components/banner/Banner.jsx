@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="container mx-auto my-12 lg:flex lg:gap-75">
       <div className="flex flex-col justify-center mr-25">
-        <p className="bg-[#E1E7FF] rounded-full md:w-1/2 px-4 py-1 flex justify-center items-center gap-2 text-[#4F39F6]"><div className="w-2.5 h-2.5 bg-[#4F39F6] rounded-full"></div> New: AI-Powered Tools Available</p>
+        <p className="bg-[#E1E7FF] rounded-full md:w-1/2 px-4 py-1 flex justify-center items-center gap-2 text-[#4F39F6]"><span className="w-2.5 h-2.5 bg-[#4F39F6] rounded-full"></span> New: AI-Powered Tools Available</p>
         <h2 className="font-extrabold text-3xl md:text-7xl/[84px] mt-5 mb-2 text-[#101727]">
           Supercharge Your <br /> Digital Workflow
         </h2>
