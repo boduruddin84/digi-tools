@@ -22,10 +22,10 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      <NavBar carts={carts} />
       <Banner />
       <Rating />
-      <DigitalTools setActiveTab={setActiveTab} />
+      <DigitalTools setActiveTab={setActiveTab} carts={carts} />
       {activeTab === "product" && <Products productPromise={productPromise} carts={carts} setCarts={setCarts} />}
       {activeTab === "cart" && <SelectedCart carts={carts} setCarts={setCarts} />}
     </>

@@ -1,3 +1,4 @@
+import { toast, ToastContainer } from "react-toastify";
 import cartImg from "../../assets/products/shopping-cart.png"
 
 const SelectedCart = ({ carts, setCarts }) => {
@@ -5,11 +6,13 @@ const SelectedCart = ({ carts, setCarts }) => {
 
   const handelPayment = () => {
     setCarts([]);
+    toast.success("Payment successful!")
   };
 
   const handelDelete = (item) => {
     const filteredArray = carts.filter(cart => cart.id !== item.id)
     setCarts(filteredArray);
+    toast.success("Product deleted from cart!")
     
   };
 

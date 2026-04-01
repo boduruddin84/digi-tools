@@ -1,6 +1,9 @@
+import { toast } from "react-toastify";
+
 const Card = ({ product, carts, setCarts }) => {
   const handelButton = () => {
     setCarts([...carts, product])
+    toast.success("Product added to cart!")
   }
 
   return (
