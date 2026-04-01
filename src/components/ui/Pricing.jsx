@@ -99,7 +99,7 @@ const Pricing = () => {
             </div>
           </div>
 
-          <div className="card w-96 shadow-sm bg-[#4F39F6] relative">
+          <div className="mt-10 md:mt-0 card w-96 shadow-sm bg-[#4F39F6] relative">
             <div className="text-center absolute ml-40 -mt-3">
                 <span className="badge badge-xs bg-[#FEF3C6] text-[#BB4D00] text-[14px] font-medium">Most Popular</span>
             </div>
@@ -221,7 +221,7 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-sm">
+          <div className="mt-10 lg:mt-0 card w-96 bg-base-100 shadow-sm">
             <div className="card-body">
               <div className="">
                 <h2 className="text-2xl font-bold text-[#101727]">Enterprise</h2>
