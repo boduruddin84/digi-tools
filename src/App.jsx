@@ -7,6 +7,7 @@ import DigitalTools from './components/ui/DigitalTools';
 import Products from './components/ui/Products';
 import SelectedCart from './components/ui/SelectedCart';
 import Started from './components/ui/Started';
+import Pricing from './components/ui/Pricing';
 
 
 const getModels = async () => {
@@ -35,6 +36,8 @@ function App() {
       {activeTab === "cart" && <SelectedCart carts={carts} setCarts={setCarts} />}
 
       <Started />
+
+      <Pricing />
     </>
   )
 }
