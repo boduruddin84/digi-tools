@@ -27,7 +27,7 @@ function App() {
       <Rating />
       <DigitalTools setActiveTab={setActiveTab} />
       {activeTab === "product" && <Products productPromise={productPromise} carts={carts} setCarts={setCarts} />}
-      {activeTab === "cart" && <SelectedCart carts={carts} />}
+      {activeTab === "cart" && <SelectedCart carts={carts} setCarts={setCarts} />}
     </>
   )
 }

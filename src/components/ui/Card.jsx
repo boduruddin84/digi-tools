@@ -4,7 +4,7 @@ const Card = ({ product, carts, setCarts }) => {
   }
 
   return (
-    <div>
+    <div className="mb-10">
       <div className="card w-96 bg-base-100 shadow-sm">
         <div className="card-body">
           <div className="flex justify-between mb-3">
