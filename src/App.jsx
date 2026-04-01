@@ -6,6 +6,7 @@ import NavBar from './components/navBar/NavBar';
 import DigitalTools from './components/ui/DigitalTools';
 import Products from './components/ui/Products';
 import SelectedCart from './components/ui/SelectedCart';
+import Started from './components/ui/Started';
 
 
 const getModels = async () => {
@@ -23,11 +24,17 @@ function App() {
   return (
     <>
       <NavBar carts={carts} />
+
       <Banner />
+
       <Rating />
+
       <DigitalTools setActiveTab={setActiveTab} carts={carts} />
       {activeTab === "product" && <Products productPromise={productPromise} carts={carts} setCarts={setCarts} />}
+
       {activeTab === "cart" && <SelectedCart carts={carts} setCarts={setCarts} />}
+
+      <Started />
     </>
   )
 }
