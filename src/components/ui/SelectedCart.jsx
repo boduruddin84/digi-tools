@@ -6,12 +6,12 @@ const SelectedCart = ({ carts, setCarts }) => {
 
   const handelPayment = () => {
     setCarts([]);
-    toast.success("Payment successful!")
+    toast.success("Payment successful!");
   };
 
   const handelDelete = (item) => {
-    const filteredArray = carts.filter(cart => cart.id !== item.id)
-    setCarts(filteredArray);
+    const filteredArray = carts.filter(cart => cart.id !== item.id);
+    setCarts(filteredArray);;
     toast.success("Product deleted from cart!")
     
   };

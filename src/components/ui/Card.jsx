@@ -1,9 +1,14 @@
-import { toast } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 
 const Card = ({ product, carts, setCarts }) => {
   const handelButton = () => {
-    setCarts([...carts, product])
-    toast.success("Product added to cart!")
+    const isFound = carts.find(item => item.id === product.id);
+    if(isFound) {
+      toast.error("Product already in cart!");
+      return;
+    }
+    setCarts([...carts, product]);
+    toast.success("Product added to cart!");
   }
 
   return (
