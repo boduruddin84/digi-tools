@@ -7,6 +7,12 @@ const SelectedCart = ({ carts, setCarts }) => {
     setCarts([]);
   };
 
+  const handelDelete = (item) => {
+    const filteredArray = carts.filter(cart => cart.id !== item.id)
+    setCarts(filteredArray);
+    
+  };
+
   return (
     <div className="container mx-auto bg-[#FFFFFF] rounded-lg shadow-2xl p-10 mb-10">
       <h2 className="text-3xl text-[#101727] font-bold mb-10">Your Cart</h2>
@@ -28,7 +34,7 @@ const SelectedCart = ({ carts, setCarts }) => {
                     <p className="text-[16px] text-[#627382]">${item.price}</p>
                   </div>
                 </div>
-                <button className="btn rounded-full text-[#FF3980]">
+                <button onClick={() => handelDelete(item)} className="btn rounded-full text-[#FF3980]">
                   Remove
                 </button>
               </div>
